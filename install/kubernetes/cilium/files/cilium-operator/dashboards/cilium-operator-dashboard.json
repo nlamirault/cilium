@@ -999,9 +999,28 @@
   "refresh": false,
   "schemaVersion": 25,
   "style": "dark",
-  "tags": [],
+  "tags": [
+    "cilium-operator",
+    "cilium"
+  ],
   "templating": {
-    "list": []
+    "list": [
+      {
+        "current": {},
+        "hide": 0,
+        "includeAll": false,
+        "label": "Prometheus",
+        "multi": false,
+        "name": "DS_PROMETHEUS",
+        "options": [],
+        "query": "prometheus",
+        "queryValue": "",
+        "refresh": 1,
+        "regex": "",
+        "skipUrlSync": false,
+        "type": "datasource"
+      }
+    ]
   },
   "time": {
     "from": "now-30m",
@@ -1032,7 +1051,7 @@
     ]
   },
   "timezone": "",
-  "title": "Cilium Operator",
+  "title": "Cilium / Operator",
   "uid": "1GC0TT4Wz",
   "version": 2
 }
