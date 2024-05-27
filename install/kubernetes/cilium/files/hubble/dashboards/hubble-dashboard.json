@@ -3291,7 +3291,10 @@
   "refresh": "30s",
   "schemaVersion": 18,
   "style": "dark",
-  "tags": [],
+  "tags": [
+    "hubble",
+    "cilium"
+  ],
   "templating": {
     "list": [
       {
@@ -3341,7 +3344,7 @@
     ]
   },
   "timezone": "",
-  "title": "Hubble Metrics and Monitoring",
+  "title": "Hubble / Metrics and Monitoring",
   "uid": "5HftnJAWz",
   "version": 24
 }
