@@ -8395,7 +8395,10 @@
   "refresh": false,
   "schemaVersion": 25,
   "style": "dark",
-  "tags": [],
+  "tags": [
+    "cilium-agent",
+    "cilium"
+  ],
   "templating": {
     "list": [
       {
@@ -8473,7 +8476,7 @@
     ]
   },
   "timezone": "utc",
-  "title": "Cilium Metrics",
+  "title": "Cilium / Agent",
   "uid": "vtuWtdumz",
   "version": 1
 }
